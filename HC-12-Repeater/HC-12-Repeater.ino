@@ -21,7 +21,7 @@ void setup() {
 
   mesh.onReceive(MyMessage);
 
-  mesh.sendTextMessage("hello:jeg:er:kul", 10001);
+  mesh.sendTextMessage("hello", 10001);
 }
 
 void loop() {
